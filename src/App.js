@@ -1,12 +1,13 @@
 // src/App.jsx
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import ProjectCard from "./components/ProjectCard";
-import Footer from "./components/Footer";
-import ContactForm from "./components/ContactForm";
+import Navbar from "./components/Navbar.jsx";
+import ProjectCard from "./components/ProjectCard.jsx";
+import Footer from "./components/Footer.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 
-import "./styles/index.css"; // Import global styles
+import "./styles/index.css";
+import "./styles/project.css";
 
 const App = () => {
   return (
