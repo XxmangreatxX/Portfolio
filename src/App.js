@@ -1,45 +1,25 @@
-// src/App.jsx
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar.jsx";
-import ProjectCard from "./components/ProjectCard.jsx";
-import Footer from "./components/Footer.jsx";
-import ContactForm from "./components/ContactForm.jsx";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
-import "./styles/index.css";
-import "./styles/project.css";
-
-const App = () => {
-  return (
-    <Router>
+const App = () => (
+  <Router>
+    <div className="app">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<ContactForm />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
       <Footer />
-    </Router>
-  );
-};
-
-const Home = () => {
-  return (
-    <section>
-      <h2>Welcome to My Portfolio</h2>
-      <p>Explore my work and skills.</p>
-    </section>
-  );
-};
-
-const Projects = () => {
-  return (
-    <div>
-      <h2>Projects</h2>
-      <ProjectCard title="Project 1" description="Description of project 1" link="#" />
-      <ProjectCard title="Project 2" description="Description of project 2" link="#" />
     </div>
-  );
-};
+  </Router>
+);
 
 export default App;

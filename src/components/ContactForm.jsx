@@ -1,4 +1,3 @@
-// src/components/ContactForm.jsx
 import React, { useState } from 'react';
 
 const ContactForm = () => {
@@ -10,12 +9,12 @@ const ContactForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData(prevData => ({ ...prevData, [name]: value }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here, you would typically send the form data to a server or email service
+    // Process the form data (e.g., send via an email service)
     console.log('Form submitted:', formData);
   };
 

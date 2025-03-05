@@ -1,17 +1,12 @@
-// src/components/ProjectCard.jsx
-import React from "react";
-import "../styles/project.css"; // Import project-specific styles
+import React from 'react';
+import '../styles/ProjectCard.css'; // Optional: for card-specific styles
 
 const ProjectCard = ({ title, description, link }) => {
   return (
     <div className="project-card">
-      <div className="project-title">
-        <h3>{title}</h3>
-      </div>
+      <h3>{title}</h3>
       <p>{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        View Project
-      </a>
+      <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
     </div>
   );
 };

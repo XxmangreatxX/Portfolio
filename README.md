@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Ali Keshavarzi Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio and resume website showcasing my skills, projects, and work experience as an aspiring full-stack developer.
 
-## Available Scripts
+## About Me
 
-In the project directory, you can run:
+I'm **Ali Keshavarzi**, a passionate developer based in **Toronto, Canada**. I'm currently working toward becoming a full-stack developer. I hold a **Computer Programming Diploma from Seneca College (Graduated August 2024)** and have completed several Codecademy certifications in JavaScript, React, HTML, CSS, and more. I am deepening my backend skills with Node.js and plan to integrate MongoDB into future projects.
 
-### `npm start`
+## Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **League of Legends Controller Mod (Upcoming)**  
+  A project to enable controller support for League of Legends with features like joystick sensitivity tuning, cursor prediction, and acceleration control. Currently in the planning phase, with challenges including smooth aiming, button remapping, and multiplayer support.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Portfolio Website**  
+  This very website! Built with HTML, CSS, JavaScript, and React, it serves as both my personal portfolio and resume, showcasing my skills and work experiences.
 
-### `npm test`
+## Skills & Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** HTML, CSS, JavaScript, React, TypeScript  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB (Coming Soon)  
+- **Version Control:** Git, GitHub  
+- **Other Tools:** VS Code, npm, REST APIs
 
-### `npm run build`
+## Work Experience
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Enerhold Engineering Solutions**  
+  *Consultant & Customer Support*  
+  - Managed energy rebate and loan programs for homeowners  
+  - Provided expert consultations on HVAC, insulation, and energy upgrades  
+  - Recruited videographers and content creators for marketing  
+  - Assisted contractors in securing funding
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Greenovate**  
+  *Customer Support & Website Manager*  
+  - Managed the AuditX website for scheduling energy audits  
+  - Assisted clients with rebate programs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation & Setup
 
-### `npm run eject`
+To run the portfolio locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/your-github-username/ali-portfolio.git
+   cd ali-portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+ali-portfolio
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ README.md
+└─ src
+   ├─ App.css
+   ├─ App.js
+   ├─ App.test.js
+   ├─ components
+   │  ├─ ContactForm.jsx
+   │  ├─ Footer.jsx
+   │  ├─ Navbar.jsx
+   │  └─ ProjectCard.jsx
+   ├─ index.css
+   ├─ index.js
+   ├─ logo.svg
+   ├─ pages
+   │  ├─ Contact.js
+   │  ├─ Home.js
+   │  └─ Projects.js
+   ├─ reportWebVitals.js
+   ├─ setupTests.js
+   ├─ styles
+   │  ├─ all.min.css
+   │  ├─ Contact.css
+   │  ├─ global.css
+   │  ├─ Home.css
+   │  ├─ ProjectCard.css
+   │  └─ Projects.css
+   └─ webfonts
+      ├─ fa-brands-400.eot
+      ├─ fa-brands-400.svg
+      ├─ fa-brands-400.ttf
+      ├─ fa-brands-400.woff
+      ├─ fa-brands-400.woff2
+      ├─ fa-regular-400.eot
+      ├─ fa-regular-400.svg
+      ├─ fa-regular-400.ttf
+      ├─ fa-regular-400.woff
+      ├─ fa-regular-400.woff2
+      ├─ fa-solid-900.eot
+      ├─ fa-solid-900.svg
+      ├─ fa-solid-900.ttf
+      ├─ fa-solid-900.woff
+      └─ fa-solid-900.woff2
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```

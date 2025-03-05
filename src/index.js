@@ -1,12 +1,12 @@
-// src/index.js
-import React from "react";
-import ReactDOM from "react-dom";
-import "./styles/index.css"; // Import global styles
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './styles/global.css';    // Your consolidated styles
+import './styles/all.min.css';    // Font Awesome icons
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );

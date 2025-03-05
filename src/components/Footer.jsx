@@ -1,13 +1,16 @@
-// src/components/Footer.jsx
 import React from 'react';
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2025 Your Name</p>
+      <p>© 2025 Ali Keshavarzi. All rights reserved.</p>
       <div className="social-links">
-        <a href="https://github.com/XxmangreatxX" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/XxmangreatxX" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin"></i>
+        </a>
       </div>
     </footer>
   );
