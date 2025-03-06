@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -14,8 +15,24 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Process the form data (e.g., send via an email service)
-    console.log('Form submitted:', formData);
+    emailjs.send(
+      'Ali-Portfolio',
+      'template_default',
+      {
+        from_name: formData.name,
+        reply_to: formData.email,
+        message: formData.message
+      },
+      'YOUR_USER_ID'
+    )
+    .then((response) => {
+      console.log('SUCCESS!', response.status, response.text);
+      alert('Your message has been sent successfully!');
+    }, (err) => {
+      console.error('FAILED...', err);
+      alert('There was an error sending your message. Please try again later.');
+    });
+    e.target.reset();
   };
 
   return (
