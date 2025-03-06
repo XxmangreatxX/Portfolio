@@ -15,10 +15,10 @@ const Contact = () => {
           <strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
         </p>
         <p>
-          <strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a>
+          <strong>Email:</strong> <a href="mailto:your-email@example.com">keshavarzi2023ali@gmail.com</a>
         </p>
         <p>
-          <strong>Portfolio:</strong> <a href="#">Your Portfolio Link</a>
+          <strong>Portfolio:</strong> <a href="#">Portfolio</a>
         </p>
       </div>
     </div>
