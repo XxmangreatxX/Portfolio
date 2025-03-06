@@ -16,7 +16,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.send(
-      'Ali-Portfolio',
+      "Ali's-Portfolio",
       'template_default',
       {
         from_name: formData.name,
