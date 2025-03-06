@@ -16,14 +16,14 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.send(
-      "Ali's-Portfolio",
-      'template_default',
+      'service_vm5gmu6',
+      'template_acsh1tn',
       {
         from_name: formData.name,
         reply_to: formData.email,
         message: formData.message
       },
-      'YOUR_USER_ID'
+      'BKXiwD6Fc-5e43Bul'
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
