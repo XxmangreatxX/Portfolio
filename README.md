@@ -24,17 +24,41 @@ I'm **Ali Keshavarzi**, a passionate developer based in **Toronto, Canada**. I'm
 
 ## Work Experience
 
+- **Consumers Energy**  
+  *Energy Sales Consultant (Ottawa, Apr 2025 – May 2025)*  
+  - Conducted energy assessments to determine rebate/loan eligibility  
+  - Used the Straight Line Sales System to guide clients through energy upgrades  
+  - Helped homeowners access up to $40,000 in loans and $10,600 in rebates  
+  - Coordinated with contractors and handled follow-up communications
+
 - **Enerhold Engineering Solutions**  
-  *Consultant & Customer Support*  
-  - Managed energy rebate and loan programs for homeowners  
-  - Provided expert consultations on HVAC, insulation, and energy upgrades  
-  - Recruited videographers and content creators for marketing  
-  - Assisted contractors in securing funding
+  *HR Specialist & Marketing Manager (Toronto, Jan 2024 – Dec 2024)*  
+  - Assisted clients with energy audits and explained rebate/loan programs  
+  - Managed customer inquiries, scheduling, and follow-ups  
+  - Executed digital marketing strategies and developed educational content
 
 - **Greenovate**  
-  *Customer Support & Website Manager*  
+  *Customer Support & Website Manager (Toronto, Jul 2023 – Dec 2023)*  
   - Managed the AuditX website for scheduling energy audits  
-  - Assisted clients with rebate programs
+  - Provided support to clients regarding rebate programs
+
+- **Red Fox Car Detailing**  
+  *Detailer (May 2023 – Dec 2023)*  
+  - Performed high-quality vehicle detailing with a focus on customer satisfaction  
+  - Applied ceramic coatings and protective treatments
+
+- **Obstetrics & Gynecology Clinic**  
+  *Front Desk Assistant (Shiraz, Jan 2022 – Jun 2022)*  
+  - Managed patient check-ins, calls, and administrative records  
+  - Scheduled appointments and supported clinic operations
+
+- **English Teacher (Shiraz, Jul 2022 – Oct 2022)**  
+  - Taught English grammar, writing, and conversation  
+  - Customized lessons and tracked student progress
+
+- **Imam Reza High School**  
+  *Computer Class Assistant (Shiraz, Oct 2020 – May 2021)*  
+  - Helped with lesson prep, student support, and classroom equipment maintenance
 
 ## Installation & Setup
 
