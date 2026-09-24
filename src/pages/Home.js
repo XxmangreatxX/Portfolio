@@ -71,7 +71,7 @@ const Home = () => {
     </ul>
   </div>
 
-  <div className="job">
+    <div className="job">
     <h3>Detailer – Red Fox Car Detailing</h3>
     <p><strong>May 2023 – December 2023</strong></p>
     <ul>
@@ -79,9 +79,10 @@ const Home = () => {
       <li>Applied ceramic coatings and protective treatments to vehicles</li>
     </ul>
   </div>
+</section>
 
-      {/* Resume Download Section */}
-      <section className="resume-download">
+{/* Resume Download Section */}
+<section className="resume-download">
         <h2>Resume</h2>
         <p>
           Download my resume: <a href="/PDFs/Ali Keshavarzi resume.pdf" download target="_blank" rel="noopener noreferrer">Resume PDF</a>
