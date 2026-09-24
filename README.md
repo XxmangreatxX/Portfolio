@@ -24,12 +24,12 @@ I'm **Ali Keshavarzi**, a passionate developer based in **Toronto, Canada**. I'm
 
 ## Work Experience
 
-- **Consumers Energy**  
-  *Energy Sales Consultant (Ottawa, Apr 2025 – May 2025)*  
-  - Conducted energy assessments to determine rebate/loan eligibility  
-  - Used the Straight Line Sales System to guide clients through energy upgrades  
-  - Helped homeowners access up to $40,000 in loans and $10,600 in rebates  
-  - Coordinated with contractors and handled follow-up communications
+- **Senior Mobile Advisor – Best Buy Canada**  
+  *Ottawa | July 2025 – Present*  
+  - Help customers compare mobile devices, carrier plans, and services based on their needs
+  - Train and support new mobile advisors on products, sales processes, and customer conversations
+  - Help the team prepare for product launches and communicate current offers
+  - Resolve customer questions and explain complex options in clear, practical terms
 
 - **Enerhold Engineering Solutions**  
   *HR Specialist & Marketing Manager (Toronto, Jan 2024 – Dec 2024)*  
@@ -46,19 +46,6 @@ I'm **Ali Keshavarzi**, a passionate developer based in **Toronto, Canada**. I'm
   *Detailer (May 2023 – Dec 2023)*  
   - Performed high-quality vehicle detailing with a focus on customer satisfaction  
   - Applied ceramic coatings and protective treatments
-
-- **Obstetrics & Gynecology Clinic**  
-  *Front Desk Assistant (Shiraz, Jan 2022 – Jun 2022)*  
-  - Managed patient check-ins, calls, and administrative records  
-  - Scheduled appointments and supported clinic operations
-
-- **English Teacher (Shiraz, Jul 2022 – Oct 2022)**  
-  - Taught English grammar, writing, and conversation  
-  - Customized lessons and tracked student progress
-
-- **Imam Reza High School**  
-  *Computer Class Assistant (Shiraz, Oct 2020 – May 2021)*  
-  - Helped with lesson prep, student support, and classroom equipment maintenance
 
 ## Installation & Setup
 
