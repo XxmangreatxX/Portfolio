@@ -83,13 +83,15 @@ const Home = () => {
 
 {/* Resume Download Section */}
 <section className="resume-download">
-        <h2>Resume</h2>
-        <p>
-          Download my resume: <a href="/PDFs/Ali Keshavarzi resume.pdf" download target="_blank" rel="noopener noreferrer">Resume PDF</a>
-        </p>
-      </section>
-    </div>
-  );
-};
+  <h2>Resume</h2>
+  <p>
+    <a
+      href={`${process.env.PUBLIC_URL}/PDFs/Resume.docx.pdf`}
+      download="Ali_Keshavarzi_Resume.pdf"
+    >
+      Download my resume (PDF)
+    </a>
+  </p>
+</section>
 
 export default Home;
