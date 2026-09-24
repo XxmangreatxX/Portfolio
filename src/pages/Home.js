@@ -72,15 +72,6 @@ const Home = () => {
   </div>
 
   <div className="job">
-    <h3>Customer Support & Website Manager – Greenovate</h3>
-    <p><strong>Toronto | July 2023 – December 2023</strong></p>
-    <ul>
-      <li>Managed the AuditX website for energy audit scheduling</li>
-      <li>Assisted clients with rebate program inquiries</li>
-    </ul>
-  </div>
-
-  <div className="job">
     <h3>Detailer – Red Fox Car Detailing</h3>
     <p><strong>May 2023 – December 2023</strong></p>
     <ul>
@@ -88,34 +79,6 @@ const Home = () => {
       <li>Applied ceramic coatings and protective treatments to vehicles</li>
     </ul>
   </div>
-
-  <div className="job">
-    <h3>English Teacher – Shiraz</h3>
-    <p><strong>July 2022 – October 2022</strong></p>
-    <ul>
-      <li>Taught grammar, writing, and conversation</li>
-      <li>Prepared lessons and tracked student progress</li>
-    </ul>
-  </div>
-
-  <div className="job">
-    <h3>Front Desk Assistant – Obstetrics & Gynecology Clinic, Shiraz</h3>
-    <p><strong>January 2022 – June 2022</strong></p>
-    <ul>
-      <li>Managed patient check-ins and appointment scheduling</li>
-      <li>Handled calls, medical records, and administrative support</li>
-    </ul>
-  </div>
-
-  <div className="job">
-    <h3>Computer Class Assistant – Imam Reza High School, Shiraz</h3>
-    <p><strong>October 2020 – May 2021</strong></p>
-    <ul>
-      <li>Assisted with classroom setup and student support in computer basics and coding</li>
-      <li>Maintained and updated classroom equipment and software</li>
-    </ul>
-  </div>
-</section>
 
       {/* Resume Download Section */}
       <section className="resume-download">
